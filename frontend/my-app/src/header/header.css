@@ -1,0 +1,37 @@
+.header li {
+    background-color: lightblue;
+}
+.container-fluid img{
+    border-radius: 50%;
+}
+.container-fluid{
+    background-color:lightblue ;
+}
+.navbar-brand{
+    background-color: lightblue;
+}
+#navbarSupportedContent{
+    background-color: lightblue;
+}
+.d-flex{
+    background-color: lightblue;
+}
+.nav-item{
+    padding:10px 50px;
+}
+.d-flex button{
+    background-color:rgb(44, 178, 227);
+    margin: 0px 10px;
+}
+.d-flex a{
+    color: azure;
+    text-decoration: none;
+    background: rgb(44, 178, 227);
+}
+.d-flex button:hover{
+    background: rgb(227, 139, 44);
+}
+.d-flex a:hover{
+    background-color: rgb(227, 139, 44);
+}
+

@@ -1,0 +1,123 @@
+.landing img{
+position: relative;
+}
+#btn1{
+    position: absolute;
+    width:150px;
+    height:40px;
+    border: none;
+    border-radius: 3px;
+    z-index: 1;
+    margin:140px 820px;
+    background-color: rgb(14, 179, 179);
+    display: inline;
+}
+#btn2{
+    position: absolute;
+    width:150px;
+    height:40px;
+    border: none;
+    border-radius: 3px;
+    z-index: 1;
+    margin:140px 1030px;
+    background-color: rgb(14, 179, 179);
+}
+
+#box1{
+    width:100%;
+    height:100%;
+    background:  whitesmoke;
+}
+#box2{
+    width:100%;
+    height:100%;
+    background:  whitesmoke;
+}
+#box3{
+    width:100%;
+    height:100%;
+    background:  whitesmoke;
+}
+#box4{
+    width:100%;
+    height:100%;
+    background:  whitesmoke;
+}
+#p1{
+    margin-top:40px;
+    text-align: center;
+    font-size: 36px;
+    background: whitesmoke;
+    font-weight: 600;
+}
+h6{
+    font-size: 20px;
+    padding: 15px;
+}
+#p2{
+    font-size: 18px;
+    background: whitesmoke;
+    font-style: italic;
+}
+.card{
+    width: 18rem;
+    margin: 50px 40px;
+    
+}
+.card img{
+    margin: 20px 65px;
+}
+.card div{
+    background-color: whitesmoke;
+}
+#p3{
+    margin-top:40px;
+    text-align: center;
+    font-size: 36px;
+    background: whitesmoke;
+    font-weight: 600;
+}
+#p4{
+    background-color: rgb(6, 170, 215);
+    color: rgb(24, 1, 21);
+}
+#a1{
+padding-bottom:80px;
+}
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+      .landing{
+         flex-wrap: wrap;
+      }
+      .row{
+        flex-wrap: wrap;
+      }
+      .btn {
+        color: white;
+      }
+    }
+    @media screen and (min-width: 1024px) {
+      .landing{
+         flex-wrap: wrap;
+      }
+      .row{
+        flex-wrap: wrap;
+      }
+      .btn {
+        color: white;
+      }
+  }
+  @media screen
+    and (max-device-width: 640px) {
+      .landing {
+         flex-wrap: wrap;
+      }
+      .row{
+        flex-wrap: wrap;
+      }
+      .btn {
+        color: white;
+      }
+}
+
+

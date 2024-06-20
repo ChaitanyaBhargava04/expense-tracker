@@ -1,0 +1,19 @@
+.white_btn{
+    float: right;
+}
+.container2 h2 {
+    color: rgb(84, 84, 250);
+    font-weight: 600;
+}
+.container2{
+    background-color:rgb(145, 249, 249);
+}
+#t1 {
+    color:rgb(57, 189, 255);
+}
+#t2 {
+    background-color: rgb(252, 223, 227);
+}
+#t3{
+    background-color: lightcyan;
+}

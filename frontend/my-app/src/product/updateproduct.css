@@ -1,0 +1,16 @@
+.container4 h2{
+    color:rgb(83, 83, 250);
+    font-weight: 700;
+}
+.container4 {
+    background: linear-gradient(to right, #eabba8, #eabba8, #eabba8);
+}
+.container4 input{
+    width:800px;
+    margin:0px 250px;
+}
+.container4 button {
+    width:150px;
+    height: 40px;
+    background-color:rgb(245, 105, 105)
+}
