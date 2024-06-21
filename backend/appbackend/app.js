@@ -34,10 +34,10 @@ app.use('/feedback', feedbacksRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
-// mongoose.connect('mongodb://127.0.0.1:27017/expensetracker', 
+ mongoose.connect('mongodb://127.0.0.1:27017/expensetracker', 
 
-//     console.log("DB Connected")
-// )
+     console.log("DB Connected")
+ )
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development

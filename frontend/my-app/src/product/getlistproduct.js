@@ -45,21 +45,21 @@ const ProductList = () => {
         toast.error('Error deleting product. Please try again.');
       });
   };
-//   const logout =()=>{
-//     localStorage.clear()
-//     window.location.reload()
-// }
-// const handleLogout = () => {
-//   localStorage.removeItem("token");
-//   window.location='/landing';
-// };
+  const logout =()=>{
+    localStorage.clear()
+    window.location.reload()
+}
+const handleLogout = () => {
+  localStorage.removeItem("token");
+  window.location='/landing';
+};
   return (
     // <button onClick={logout}>Logout</button>
     <div className="container2 mt-5">
-      {/* <div>
+      <div>
       <button className="white_btn" onClick={handleLogout}>
 					Logout
-				</button></div> */}
+				</button></div>
       <h2>Detail List</h2>
       <table className="table table-bordered table-striped">
         <thead>
