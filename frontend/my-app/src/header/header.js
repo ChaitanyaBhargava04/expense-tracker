@@ -20,7 +20,7 @@ function Header() {
           <a class="nav-link active" aria-current="page" href="/aboutus">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/process">Process</a>
+          <a class="nav-link disabled" aria-current="page" href="/process" >Process</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
