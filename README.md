@@ -1,0 +1,1 @@
+Our Expense Tracker website is a user-friendly, feature-rich platform designed to help individuals and businesses efficiently manage their finances. It provides a comprehensive set of tools to track income, expenses, and budgets, offering insights that empower users to make informed financial decisions.
